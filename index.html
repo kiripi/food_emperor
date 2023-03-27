@@ -4,10 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="sass/main.scss" />
     <title>Food Emperor</title>
   </head>
   <body>
-    <script src="./main.js"></script>
+    <div class="container">
+      <header class="header">
+        <img
+          src="https://cdn.pixabay.com/photo/2018/04/06/19/39/symbol-3296661_960_720.png"
+          alt="logo"
+          class="header__logo"
+        />
+        <form class="search">
+          <input
+            type="text"
+            class="search__field"
+            placeholder="browse amazing recipes"
+          />
+          <button class="btn search__btn">Search</button>
+        </form>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <button class="nav__btn nav__btn--add-recipe">Add recipe</button>
+            </li>
+            <li class="nav__item">
+              <button class="nav__btn nav__btn--bookmarks">Bookmarks</button>
+            </li>
+            <li class="nav__item">
+              <div class="bookmarks">
+                <ul class="bookmarks__list">
+                  <li>Find a recipe and add bookmark.</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
