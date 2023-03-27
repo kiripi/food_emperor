@@ -1,0 +1,26 @@
+{
+  "name": "food_emperor",
+  "version": "1.0.0",
+  "description": "recipe search app",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiripi/food_emperor.git"
+  },
+  "author": "kiripi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiripi/food_emperor/issues"
+  },
+  "homepage": "https://github.com/kiripi/food_emperor#readme",
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "sass": "^1.60.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3"
+  }
+}
